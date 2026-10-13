@@ -18,8 +18,11 @@ original walkthroughs this tool is based on.
 
 ## Installation
 
-**Option A — import the `.unitypackage`** (easiest): **Assets → Import
-Package → Custom Package…** and select `panorama_cylinder.unitypackage`.
+**Option A — import the `.unitypackage`** (easiest): download the latest
+`.unitypackage` from this repo's
+[Releases page](https://github.com/mmoore0011/chickenandribs_panorama_cylinder/releases/latest),
+then in Unity: **Assets → Import Package → Custom Package…** and select
+the downloaded file.
 
 **Option B — copy into your project**: copy the `panorama_cylinder`
 folder's contents into your Unity project's `Assets/` (the `.shader` file
