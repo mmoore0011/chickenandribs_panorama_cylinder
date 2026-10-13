@@ -50,7 +50,10 @@ $utf8 = [System.Text.UTF8Encoding]::new($false)
 
 # ── Resolve paths ─────────────────────────────────────────────────────────────
 $toolPath = (Get-Location).Path
-$outPkg   = $OutputFile
+# Must be absolute: the script later Push-Location's into a temp build folder,
+# and a relative $OutputFile would then resolve against THAT directory instead
+# of here, silently writing the package to the wrong place.
+$outPkg   = Join-Path $toolPath $OutputFile
 
 # ── Temp workspace (auto-cleaned on exit) ─────────────────────────────────────
 $tmp = Join-Path ([System.IO.Path]::GetTempPath()) "unity_pkg_$([System.Guid]::NewGuid().ToString('N'))"
