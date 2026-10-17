@@ -4,7 +4,7 @@
 
 ## Video
 
-Original manual technique this tool automates, by **1970kaustin**:
+Original manual technique this tool automates stuff in part 2, by **1970kaustin**:
 
 - [Pano cylinder creation walkthrough, part 1](https://www.loom.com/share/7f5c89629c7a40ccbaf5a445de62cd01)
 - [Pano cylinder creation walkthrough, part 2](https://www.loom.com/share/a2a0f21b22774225841e6fb461313715)
