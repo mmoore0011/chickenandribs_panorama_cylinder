@@ -2,6 +2,13 @@
 
 ![Panorama Cylinder splash](splash.png)
 
+## Video
+
+Original manual technique this tool automates, by **1970kaustin**:
+
+- [Pano cylinder creation walkthrough, part 1](https://www.loom.com/share/7f5c89629c7a40ccbaf5a445de62cd01)
+- [Pano cylinder creation walkthrough, part 2](https://www.loom.com/share/a2a0f21b22774225841e6fb461313715)
+
 ## Description
 
 Takes some of the manual work out of pano cylinder creation. Arranges a
@@ -13,7 +20,7 @@ viewed from a camera near its center), but for a set of discrete tile
 images instead of one wraparound equirectangular texture.
 
 This automates the geometry/UV side of a technique originally shown
-manually by **1970kaustin** — see the Video section below for the
+manually by **1970kaustin** — see the Video section above for the
 original walkthroughs this tool is based on.
 
 ## Installation
@@ -87,10 +94,3 @@ Cylinder**.
 ## Feature Requests / Bug Reports
 
 Please open an issue in this repository.
-
-## Video
-
-Original manual technique this tool automates, by **1970kaustin**:
-
-- [Pano cylinder creation walkthrough, part 1](https://www.loom.com/share/7f5c89629c7a40ccbaf5a445de62cd01)
-- [Pano cylinder creation walkthrough, part 2](https://www.loom.com/share/a2a0f21b22774225841e6fb461313715)
